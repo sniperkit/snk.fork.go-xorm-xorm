@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2017 The Xorm Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -6,7 +11,9 @@
 
 package xorm
 
-import "context"
+import (
+	"context"
+)
 
 // PingContext tests if database is alive
 func (engine *Engine) PingContext(ctx context.Context) error {

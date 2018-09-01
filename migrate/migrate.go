@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package migrate
 
 import (
 	"errors"
 	"fmt"
 
-	"github.com/go-xorm/xorm"
+	"github.com/sniperkit/snk.fork.go-xorm-xorm"
 )
 
 // MigrateFunc is the func signature for migrating.

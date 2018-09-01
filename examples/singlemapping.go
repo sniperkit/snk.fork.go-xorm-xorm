@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/go-xorm/xorm"
 	_ "github.com/mattn/go-sqlite3"
+
+	"github.com/sniperkit/snk.fork.go-xorm-xorm"
 )
 
 // User describes a user

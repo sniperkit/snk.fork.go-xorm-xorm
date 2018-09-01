@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 dependencies:
   override:
     # './...' is a relative pattern which means all subdirectories

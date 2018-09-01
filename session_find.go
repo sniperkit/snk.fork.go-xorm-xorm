@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 The Xorm Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -104,7 +109,7 @@ func (session *Session) find(rowsSlicePtr interface{}, condiBean ...interface{})
 			}
 		} else {
 			// !oinume! Add "<col> IS NULL" to WHERE whatever condiBean is given.
-			// See https://github.com/go-xorm/xorm/issues/179
+			// See https://github.com/sniperkit/snk.fork.go-xorm-xorm/issues/179
 			if col := table.DeletedColumn(); col != nil && !session.statement.unscoped { // tag "deleted" is enabled
 				var colName = session.engine.Quote(col.Name)
 				if addedTableName {

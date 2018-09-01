@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package migrate
 
 import (
@@ -6,9 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-xorm/xorm"
 	_ "github.com/mattn/go-sqlite3"
 	"gopkg.in/stretchr/testify.v1/assert"
+
+	"github.com/sniperkit/snk.fork.go-xorm-xorm"
 )
 
 type Person struct {

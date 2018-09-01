@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2013 - 2016 The XORM Authors. All rights reserved.
 // Use of this source code is governed by a BSD
 // license that can be found in the LICENSE file.
@@ -10,7 +15,7 @@ Installation
 
 Make sure you have installed Go 1.6+ and then:
 
-    go get github.com/go-xorm/xorm
+    go get github.com/sniperkit/snk.fork.go-xorm-xorm
 
 Create Engine
 

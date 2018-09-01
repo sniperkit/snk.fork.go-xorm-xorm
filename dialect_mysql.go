@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015 The Xorm Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -551,12 +556,10 @@ func (db *mysql) CreateTableSql(table *core.Table, tableName, storeEngine, chars
 
 	if len(charset) == 0 {
 		charset = db.URI().Charset
-	} 
+	}
 	if len(charset) != 0 {
 		sql += " DEFAULT CHARSET " + charset
 	}
-	
-	
 
 	if db.rowFormat != "" {
 		sql += " ROW_FORMAT=" + db.rowFormat
